@@ -1,7 +1,7 @@
 # SMS-Spam-Detector
 Natural Language Processing SMS Spam Detector
 
-A complete end-to-end machine learning and deep learning pipeline for classifying SMS messages as **spam** or **ham** (legitimate). This project follows an 8-step structure — from data loading to model evaluation and saving results — using both traditional ML and deep learning approaches.
+A complete end-to-end machine learning and deep learning pipeline for classifying SMS messages as **spam** or **ham** (legitimate). This project follows an 8-step structure from data loading to model evaluation and saving results using both traditional ML and deep learning approaches.
 
 ---
 
