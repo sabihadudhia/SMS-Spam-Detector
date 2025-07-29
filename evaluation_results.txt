@@ -1,0 +1,42 @@
+SMS SPAM CLASSIFICATION - EVALUATION RESULTS
+==================================================
+
+MODEL PERFORMANCE SUMMARY:
+------------------------------
+SVM (TF-IDF):
+  Accuracy:  0.9803
+  Precision: 0.9441
+  Recall:    0.9060
+  F1-Score:  0.9247
+
+Deep Learning (TF-IDF):
+  Accuracy:  0.9803
+  Precision: 0.9441
+  Recall:    0.9060
+  F1-Score:  0.9247
+
+Naive Bayes (BoW):
+  Accuracy:  0.9794
+  Precision: 0.9632
+  Recall:    0.8792
+  F1-Score:  0.9193
+
+SVM (BoW):
+  Accuracy:  0.9794
+  Precision: 0.9565
+  Recall:    0.8859
+  F1-Score:  0.9199
+
+Naive Bayes (TF-IDF):
+  Accuracy:  0.9740
+  Precision: 1.0000
+  Recall:    0.8054
+  F1-Score:  0.8922
+
+DATASET SIZE ANALYSIS:
+-------------------------
+ 10% dataset: 0.9554 accuracy
+ 30% dataset: 0.9552 accuracy
+ 50% dataset: 0.9767 accuracy
+ 70% dataset: 0.9859 accuracy
+100% dataset: 0.9830 accuracy
