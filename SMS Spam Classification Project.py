@@ -1,5 +1,4 @@
 # SMS Spam Classification Project - Organized Version
-# Following the 8-step sequence: Load → Preprocess → Vectorize → Train → Evaluate → Classify → Compare → Save
 
 # ============================================================================
 # IMPORTS AND SETUP
@@ -263,7 +262,7 @@ def evaluate_all_models(model_results, y_test):
     best_model_name = sorted_models[0][0]
     best_model_info = sorted_models[0][1]
     
-    print(f"\n🏆 Best Model: {best_model_name} (Accuracy: {best_model_info['accuracy']:.4f})")
+    print(f"\n Best Model: {best_model_name} (Accuracy: {best_model_info['accuracy']:.4f})")
     
     # Detailed classification report for best model
     print(f"\nDetailed Classification Report for {best_model_name}:")
