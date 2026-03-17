@@ -2,7 +2,7 @@
 
 ## Overview
 The purpose of this task is the development of an NLP system that can collect a labelled dataset of SMS text messages classified as either spam or ham (legitimate), preprocess the data, train the preprocessed data on a machine learnig model using a supervised model (such as Naive Bayes or Support Vector Machines), test the model and use it to classify new text messages as spam or ham confidently. 
-The chosen dataset: UC Irvie Machine Learning Repository with 5574 labelled data points.
+The chosen dataset: UC Irvine Machine Learning Repository with 5574 labelled data points.
 
 ## Results
 The NLP-based system to classify SMS messages as spam or legitimate, achieved strong overall performance across multiple models. SVM with TF-IDF was the best approach, delivering the highest accuracy (~98%) and most balanced precision–recall performance, making it the most reliable classifier. Naïve Bayes also performed well as a fast and efficient baseline, while the deep learning model showed slightly lower results due to limited data but has potential for improvement with larger datasets. The model performance generally improved with increasing dataset size, stabilizing around 50–70%, though a drop at full data suggests possible noise or imbalance. Feature engineering played a crucial role, with TF-IDF providing better term importance and n-grams improving spam phrase detection. Overall, classical machine learning models proved highly effective and computationally efficient for this task, demonstrating strong robustness on noisy, real-world SMS data.
